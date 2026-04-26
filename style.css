@@ -1,0 +1,27 @@
+.container-fluid{
+    background-color: #5C573E;
+    height: 100px;
+}
+
+.navbar-brand{
+    color: aliceblue;
+    font-size: 50px;
+    text-indent: 50px;
+    
+}
+
+.nav-link{
+    color: aliceblue;
+    font-size: 25px;
+    text-indent: 50px;
+    
+}
+
+.btn{
+    background-color: #FFC09F;
+    color: black;
+}
+
+.btn-outline-success{
+    
+}

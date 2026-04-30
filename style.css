@@ -17,11 +17,12 @@
     
 }
 
-.btn{
+.btn-outline-success{
     background-color: #FFC09F;
     color: black;
 }
 
-.btn-outline-success{
-    
+.btn-outline-success:hover{
+    background-color: #000000;
+    color: rgb(255, 255, 255);
 }

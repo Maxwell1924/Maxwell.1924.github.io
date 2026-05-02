@@ -4,24 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
-</head>
-<body>
-    <head>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    </head>
-    <head>
-
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-
-</head>
     
-    <body>
-        
-        
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    </body>
-<!-- The navbar, what I did so far is color(css) and changed the names -->
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    
+</head>
+
+<body>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- The navbar, what I did so far is color(css) and changed the names -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">NatureNest</a>
@@ -50,10 +45,70 @@
             </div>
         </div>
     </nav>
-
-    <div class="img-fluid">
-        <img src="/Images of birds/Birds photos/1800.jpg" class="img-fluid" alt="https://cdn.download.ams.birds.cornell.edu/api/v1/asset/64814541/1800">
+    
+    <!-- I did a box with daily facts of birds that that is visble on the left side of the page-->
+    <div class="d-flex justify-content-between align-items-start">
+        <div class="card ms-auto mt-5" style="width: 40rem;">
+            <div class="card-header">
+                DAILY FACTS
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Birds are vertebrates with lightweight bones that help many species fly.</li>
+                <li class="list-group-item">They lay eggs and often build nests to protect their young.</li>
+                <li class="list-group-item">Different species have unique beaks adapted to their diet.</li>
+                <li class="list-group-item">Birds communicate through songs, calls, and body movements.</li>
+                <li class="list-group-item">They can be found in environments ranging from forests to cities.</li>
+                <li class="list-group-item">Owls can rotate their heads up to 270 degrees to better observe their surroundings.</li>
+                <li class="list-group-item">Hummingbirds are the only birds capable of flying backward.</li>
+                <li class="list-group-item">Some birds migrate thousands of miles each year to find food and warmer climates.</li>
+            </ul>
+        </div>
+        
+        
+        
+        
+        <div class= "card ms-auto me-5 mt-5 mb-5" style= "width: 40rem;" >
+            <img src="/Images of birds/Birds photos/1800.jpg" class="card-img-top" alt="https://cdn.download.ams.birds.cornell.edu/api/v1/asset/64814541/1800">
+            <div class="card-body">
+                <p class="card-text">Birds are warm-blooded animals with feathers and beaks, found in habitats all over the world. Many can fly, and they play an important role in nature by spreading seeds, pollinating plants, and controlling insects.</p>
+            </div>
+        </div>
     </div>
+    
+    <!-- footer. tried finding something on boostsrap but couldnt find anything, so I went on youtube and browse some vids and follow a vid that i liked-->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <h3>Contact Us</h3>
+                <p>Email:zammitmaxwell@gmail.com</p>
+                <p>Phone:+356 8988 9099</p>
+                <p>Address:Triq San Stiefnu, Ħal Qormi</p>
+            </div>
+            
+            <div class="footer-content">
+                <h3>Quick links</h3>
+                <ul class="list">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Category</a></li>
+                    <li><a href="">Gallery</a></li>
+                    <li><a href="">Contact Us</a></li>
+                    <li><a href="">About Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-content">
+                <h3>Follow Us</h3>
+                <ul class="social-icons">
+                <li><a href=""><i class="bi bi-facebook"></i></a></li>
+                <li><a href=""><i class="bi bi-twitter-x"></i></a></li>
+                <li><a href=""><i class="bi bi-instagram"></i></a></li>
+                <li><a href=""><i class="bi bi-linkedin"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="bottom-bar">
+            <p>&copy; 2026 NatureNest . All rights reserved</p>
+        </div>
+    </footer>
     
 </body>
 </html>

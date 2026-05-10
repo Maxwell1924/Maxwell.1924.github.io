@@ -5,6 +5,7 @@
 
 body{
     background-color: #a5b452;
+    overflow-x: hidden;
 }
 
 .navbar-brand{
@@ -153,4 +154,19 @@ a:hover{
     padding: 7px;
 }
 
+.col{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 
+.card{
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}

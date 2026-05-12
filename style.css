@@ -189,4 +189,56 @@ a:hover{
     border: 3px solid #ffffff;
 }
 
+.contact-box input,
+.contact-box textarea{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 12px;
+    outline: none;
+    transition: 0.3s ease;
+    font-size: 16px;
+}
+
+.contact-box input:focus,
+.contact-box textarea:focus{
+
+    border-color: #5a3d26;
+    box-shadow: 0 0 10px rgba(92,87,62,0.4);
+}
+
+.contact-box button{
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 12px;
+    background-color: #FFC09F;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    transition: 0.3s ease;
+}
+
+
+.contact-box button:hover{
+    background-color: #000000;
+    color: #ffffff;
+    transform: scale(1.02);
+}
+
+.contact-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
+}
+
+
+.contact-box{
+    width: 100%;
+    max-width: 800px;
+    background-color: transparent;
+}
+
+
 

@@ -241,4 +241,63 @@ a:hover{
 }
 
 
+.about-card{
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    background-image: url("/Images of birds/Birds photos/kevin-mueller-aeNg4YA41P8-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+    transition: 0.4s ease;
+}
 
+.card-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    text-align: center;
+    color: white;
+}
+
+.card-content p{
+    max-width: 90%;
+    line-height: 1.8;
+    font-size: 15px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about-section{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card-content h2{
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-decoration: underline white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.about-card::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.45);
+}
+
+.card-link{
+    text-decoration: none;
+    color: inherit;
+}
